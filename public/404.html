@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Studio Pro — Redirecting</title>
+    <script>
+      (function () {
+        var path = window.location.pathname;
+        var parts = path.split('/').filter(Boolean);
+        var base = parts.length > 0 && window.location.hostname.endsWith('github.io')
+          ? '/' + parts[0] + '/'
+          : '/';
+        window.location.replace(base + (window.location.hash || '#/'));
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

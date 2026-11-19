@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PDF Studio Pro</string>
+    <string name="tagline">Tap any text on your PDF to replace it instantly</string>
+    <string name="open_pdf">Open PDF</string>
+    <string name="export_pdf">Export</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="fit_screen">Fit</string>
+    <string name="rotate_page">Rotate page</string>
+    <string name="confirm_edit">Confirm edit</string>
+    <string name="restore_original">Restore original</string>
+    <string name="recent_projects">Recent Projects</string>
+    <string name="sample_documents">Interactive Test PDFs</string>
+</resources>
